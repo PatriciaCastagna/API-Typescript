@@ -1,0 +1,29 @@
+/* Visit https://aka.ms/tsconfig to read more about this file */
+{
+  "compilerOptions": {
+    
+    /* Language and Environment */
+    "target": "es2016",                                 
+    /* Modules */
+    "module": "commonjs",     
+    
+    "rootDir": "src",
+
+    "typeRoots": [
+      "./src/@types",
+      "node_modules/@types",
+    ],
+
+    "outDir": "./dist",
+ 
+    "esModuleInterop": true,                            
+    "removeComments": true,
+    "forceConsistentCasingInFileNames": true,            
+
+    /* Type Checking */
+    "strict": true,                                      
+    
+    // "skipDefaultLibCheck": true,                      
+    "skipLibCheck": true                                 
+  }
+}
